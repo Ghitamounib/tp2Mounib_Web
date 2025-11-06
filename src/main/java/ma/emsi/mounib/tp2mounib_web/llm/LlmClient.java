@@ -16,7 +16,6 @@ import java.io.Serializable;
 @Dependent
 public class LlmClient implements Serializable {
 
-    private static final long serialVersionUID = 1L;
 
     private String systemRole;
     private transient ChatMemory chatMemory;
